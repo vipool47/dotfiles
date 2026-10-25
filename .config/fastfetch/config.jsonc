@@ -22,7 +22,10 @@
     "break",
     "title",
     "separator",
-    "os",
+    {
+      "type": "os",
+      "format": "{2}"
+    },
     "kernel",
     "uptime",
     "packages",
@@ -39,8 +42,6 @@
       "type": "terminal",
       "key": "Terminal"
     },
-    "cpu",
-    "gpu",
     "memory",
     "disk",
     "break"
