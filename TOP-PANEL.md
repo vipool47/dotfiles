@@ -26,6 +26,7 @@ Make sure background style is contrasted ,it gives the top panel its translucent
 
 ![Blur my Shell settings 3](screenshots/toppanel/blurmyshell3.png)
 
+To make dock transparent (if you have dash to dock)
 ![Blur my Shell settings 4](screenshots/toppanel/blurmyshell4.png)
 
 ![Blur my Shell settings 5](screenshots/toppanel/blurmyshell5.png)
