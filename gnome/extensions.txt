@@ -1,0 +1,17 @@
+Fedora: 44
+GNOME Shell 50.6
+
+user-theme@gnome-shell-extensions.gcampax.github.com
+clipboard-indicator@tudmotu.com
+caffeine@patapon.info
+just-perfection-desktop@just-perfection
+tilingshell@ferrarodomenico.com
+mediacontrols@cliffniff.github.com
+Vitals@CoreCoding.com
+tasks-in-panel@fthx
+arcmenu@arcmenu.com
+disable-extension-updates@swsnr.de
+dash-to-dock@micxgx.gmail.com
+blur-my-shell@aunetx
+background-logo@fedorahosted.org
+appindicatorsupport@rgcjonas.gmail.com

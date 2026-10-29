@@ -74,6 +74,7 @@ TOP-PANEL         → guide to make panel like mine
 
 Check out my [**GNOME Top Panel Customization Guide**](TOP-PANEL.md) for step-by-step instructions and screenshots.
 
+---
 
 ## Restoring GNOME Settings 
 
