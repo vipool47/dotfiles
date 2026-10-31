@@ -58,6 +58,9 @@ A collection of my configurations, desktop customizations and application settin
 ### 🧑‍💻 Zed Editor
 ![Zed](screenshots/zed.png)
 
+### 🦊 Firefox
+![Firefox](screenshots/firefox.png)
+
 ## 📂 What's Inside
 
 ```text
