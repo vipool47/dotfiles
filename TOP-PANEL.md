@@ -13,7 +13,7 @@ A step-by-step guide to achieving the translucent, blurred GNOME top panel shown
 
 Install the extensions listed above and adjust their settings using the screenshots in this guide.
 
-For reference : this configuration was tested on Fedora 44 with GNOME 50 and Blur my Shell v76. 
+For reference : this configuration was tested on Fedora 45 with GNOME 51 and Blur my Shell v78. 
 
 ## 2. Configure Blur my Shell
 

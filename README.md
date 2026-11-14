@@ -8,8 +8,8 @@ A collection of my configurations, desktop customizations and application settin
 
 | Component | Details |
 |:--|:--|
-| **OS** | Fedora Workstation |
-| **DE** | GNOME |
+| **OS** | Fedora Workstation 45|
+| **DE** | GNOME 51|
 | **GTK Theme** | Yaru Dark |
 | **Cursor** | Bibata Modern Ice |
 | **Terminal** | Ghostty |
@@ -31,11 +31,15 @@ A collection of my configurations, desktop customizations and application settin
 - Tiling Shell
 - User Themes
 - Vitals
+- Widgets (by distro)
 
 ## 📸 In Action
 
 ### 🖥️ Desktop
 ![Desktop](screenshots/desktop.png)
+
+### 🖥️ Widgets
+![Desktop](screenshots/desktop1.png)
 
 ### 🌊 CAVA
 ![CAVA](screenshots/cava.png)
