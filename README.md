@@ -29,40 +29,33 @@ A collection of my configurations, desktop customizations and application settin
 - Media Controls
 - Tasks in Panel
 - Tiling Shell
-- User Themes
 - Vitals
 - Widgets (by distro)
 
-## 📸 In Action
+## In Action
 
-### 🖥️ Desktop
+### Desktop
 ![Desktop](screenshots/desktop.png)
 
-### 🖥️ Widgets
-![Desktop](screenshots/desktop1.png)
+### Shell-theme
+![Desktop](screenshots/shell-theme.png)
 
-### 🌊 CAVA
-![CAVA](screenshots/cava.png)
-
-### 🪟 GNOME Overview
-![GNOME Overview](screenshots/overview.png)
-
-### 💻 Ghostty & Terminal
+### Ghostty & Cava
 ![Ghostty](screenshots/ghostty.png)
 
-### 📊 Fastfetch
+### Fastfetch
 ![Fastfetch](screenshots/fastfetch.png)
 
-### 🚀 Vicinae Launcher
+### Vicinae Launcher
 ![Vicinae](screenshots/vicinae.png)
 
-### 🧠 Obsidian
+### Obsidian
 ![Obsidian](screenshots/obsidian.png)
 
-### 🧑‍💻 Zed Editor
+### Zed Editor
 ![Zed](screenshots/zed.png)
 
-### 🦊 Firefox
+### Firefox
 ![Firefox](screenshots/firefox.png)
 
 ## 📂 What's Inside
@@ -85,7 +78,7 @@ Check out my [**GNOME Top Panel Customization Guide**](TOP-PANEL.md) for step-by
 
 ## Restoring GNOME Settings 
 
-The `gnome/` directory contains exported GNOME and extension settings. Install the relevant extensions first, then import their settings using Dconf.
+Install the relevant extensions first, then import their settings using Dconf.
 
 Example — restoring Dash to Dock:
 
@@ -93,7 +86,7 @@ Example — restoring Dash to Dock:
 dconf load /org/gnome/shell/extensions/dash-to-dock/ < gnome/dash-to-dock.ini
 ```
 
-Back up your existing settings before importing. Compatibility may vary across GNOME and extension versions so keep backup of your configs.
+Compatibility may vary across GNOME and extension versions so keep backup of your configs.
 
 
 ## ⭐ Like This Setup?

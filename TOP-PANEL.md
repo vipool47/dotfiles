@@ -6,7 +6,7 @@ A step-by-step guide to achieving the translucent, blurred GNOME top panel shown
 
 - **Blur my Shell** - panel transparency and blur
 - **Just Perfection** - panel customization
-- **Tasks in Panel** - window and application buttons 
+- **Tasks in Panel** - window and application buttons (optional)
 - **ArcMenu** - fedora icon (optional)
 
 ## 1. Install and Configure Extensions
@@ -86,7 +86,3 @@ Under the icon settings, choose the icon you prefer.
 
 ![ArcMenu settings 5](screenshots/toppanel/arcmenu5.png)
 
-## Notes
-
-- Back up your existing extension settings before making changes or upgrading extensions
-- If an update causes problems, restore a known-working configuration and use compatible extension versions.
