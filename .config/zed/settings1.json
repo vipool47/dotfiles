@@ -1,0 +1,29 @@
+// Zed settings
+// Use it as settings.json (remove 1 ) its my plain config
+{
+  "project_panel": {
+    "dock": "left"
+  },
+  "disable_ai": true,
+  "cursor_animation": {
+    "enabled": true
+  },
+  "agent_ui_font_size": 21.0,
+  "cli_default_open_behavior": "existing_window",
+  "ui_font_family": "JetBrains Mono",
+  "ui_font_weight": 450.0,
+  "icon_theme": "Zed (Default)",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 21.0,
+  "buffer_font_size": 20.0,
+  "theme": {
+    "mode": "system",
+    "light": "Tokyo Night Dark",
+    "dark": "VSCode Dark Polished"
+  },
+}
