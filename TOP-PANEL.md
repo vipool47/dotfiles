@@ -6,7 +6,7 @@ A step-by-step guide to achieving the translucent, blurred GNOME top panel shown
 
 - **Blur my Shell** - panel transparency and blur
 - **Just Perfection** - panel customization
-- **Tasks in Panel** - window and application buttons (optional)
+- **Tasks in Panel** - window and application buttons 
 - **ArcMenu** - fedora icon (optional)
 
 ## 1. Install and Configure Extensions

@@ -15,35 +15,68 @@
   "display": {
     "separator": "  ",
     "key": {
-      "width": 10
+      "width": 0
     }
   },
   "modules": [
     "break",
-    "title",
-    "separator",
+    {
+      "type": "title",
+      "format": "vipool@fedora"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "╭────────────╮"
+    },
     {
       "type": "os",
+      "key": "│ OS         │",
       "format": "{2}"
     },
-    "kernel",
-    "uptime",
-    "packages",
-    "shell",
     {
-      "type": "de",
-      "key": "DE"
+      "type": "kernel",
+      "key": "│ Kernel     │"
     },
     {
-      "type": "wm",
-      "key": "WM"
+      "type": "uptime",
+      "key": "│ Uptime     │"
+    },
+    {
+      "type": "shell",
+      "key": "│ Shell      │"
+    },
+    {
+      "type": "de",
+      "key": "│ DE         │"
     },
     {
       "type": "terminal",
-      "key": "Terminal"
+      "key": "│ Terminal   │"
     },
-    "memory",
-    "disk",
+    {
+      "type": "custom",
+      "format": "├────────────┤"
+    },
+    {
+      "type": "memory",
+      "key": "│ Memory     │"
+    },
+    {
+      "type": "disk",
+      "key": "│ Disk       │"
+    },
+    {
+      "type": "custom",
+      "format": "╰────────────╯"
+    },
+    "break",
+    {
+      "type": "custom",
+      "key": " ",
+      "format": "\u001b[38;2;30;58;95m●  \u001b[38;2;42;82;130m●  \u001b[38;2;54;110;165m●  \u001b[38;2;65;140;195m●  \u001b[38;2;82;170;220m●  \u001b[38;2;105;195;240m●  \u001b[38;2;145;215;250m●  \u001b[38;2;190;235;255m●\u001b[0m"
+    },
     "break"
   ]
 }
+

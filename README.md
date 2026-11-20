@@ -26,7 +26,7 @@ A collection of my configurations, desktop customizations and application settin
 - Clipboard Indicator
 - Dash to Dock
 - Just Perfection
-- Media Controls
+- Advanced Media Controller
 - Tasks in Panel
 - Tiling Shell
 - Vitals
