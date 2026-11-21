@@ -1,0 +1,190 @@
+
+/* ==========================================
+   OBSIDIAN GRAPH — NEURAL OBSERVATORY
+   Graph-only customization
+   ========================================== */
+
+/* 1. Graph color palette */
+
+.graph-view.color-fill {
+    color: #b39aff;
+    opacity: 0.95;
+}
+
+.graph-view.color-fill-highlight {
+    color: #f0d9ff;
+}
+
+.graph-view.color-line {
+    color: #8266b0;
+    opacity: 0.48;
+}
+
+.graph-view.color-line-highlight {
+    color: #d7b5ff;
+}
+
+.graph-view.color-text {
+    color: #c9b8e8;
+}
+
+.graph-view.color-text-highlight {
+    color: #ffffff;
+}
+
+.graph-view.color-arrow {
+    color: #b39aff;
+}
+
+
+/* 2. Observatory background */
+
+.workspace-leaf-content[data-type="graph"]
+.view-content {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+
+    background-color: var(--background-primary);
+
+    background-image:
+        radial-gradient(
+            ellipse at 50% 48%,
+            rgba(145, 95, 220, 0.085),
+            transparent 58%
+        ),
+        radial-gradient(
+            ellipse at 80% 15%,
+            rgba(115, 75, 190, 0.045),
+            transparent 45%
+        ),
+        linear-gradient(
+            rgba(160, 140, 200, 0.035) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(160, 140, 200, 0.035) 1px,
+            transparent 1px
+        );
+
+    background-size:
+        100% 100%,
+        100% 100%,
+        36px 36px,
+        36px 36px;
+}
+
+
+/* 3. Soft atmospheric vignette */
+
+.workspace-leaf-content[data-type="graph"]
+.view-content::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+
+    background:
+        radial-gradient(
+            ellipse at center,
+            transparent 45%,
+            rgba(0, 0, 0, 0.22) 100%
+        );
+}
+
+
+/* 4. Graph canvas */
+
+.workspace-leaf-content[data-type="graph"]
+.graph-view-container {
+    position: relative;
+    z-index: 0;
+}
+
+/* Keep canvas transparent so the grid is visible */
+
+.workspace-leaf-content[data-type="graph"]
+.graph-view-container canvas {
+    background: transparent !important;
+}
+
+
+/* 5. Floating glass controls */
+
+.workspace-leaf-content[data-type="graph"]
+.graph-controls {
+    background: rgba(35, 32, 44, 0.82);
+    border: 1px solid rgba(180, 145, 245, 0.16);
+    border-radius: 14px;
+
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.22),
+        inset 0 1px rgba(255, 255, 255, 0.035);
+
+    backdrop-filter: blur(16px);
+}
+
+
+/* 6. Buttons */
+
+.workspace-leaf-content[data-type="graph"]
+.graph-controls .clickable-icon {
+    border-radius: 9px;
+    transition:
+        background 180ms ease,
+        color 180ms ease,
+        transform 180ms ease;
+}
+
+.workspace-leaf-content[data-type="graph"]
+.graph-controls .clickable-icon:hover {
+    color: #d7b5ff;
+    background: rgba(165, 120, 230, 0.16);
+    transform: scale(1.08);
+}
+
+
+/* 7. Graph settings panel */
+
+.workspace-leaf-content[data-type="graph"]
+.graph-controls.is-expanded {
+    border: 1px solid rgba(180, 145, 245, 0.22);
+    box-shadow:
+        0 15px 45px rgba(0, 0, 0, 0.3);
+}
+
+
+/* 8. Graph sliders */
+
+.workspace-leaf-content[data-type="graph"]
+input[type="range"] {
+    accent-color: #a78bfa;
+}
+
+
+/* 9. Graph search input */
+
+.workspace-leaf-content[data-type="graph"]
+input[type="search"] {
+    border-radius: 9px;
+    border: 1px solid rgba(180, 145, 245, 0.18);
+    background: var(--background-primary);
+}
+
+.workspace-leaf-content[data-type="graph"]
+input[type="search"]:focus {
+    border-color: #a78bfa;
+    box-shadow: 0 0 0 2px rgba(167, 139, 250, 0.12);
+}
+
+
+/* 10. Reduced motion support */
+
+@media (prefers-reduced-motion: reduce) {
+    .workspace-leaf-content[data-type="graph"]
+    .graph-controls .clickable-icon {
+        transition: none;
+    }
+}
